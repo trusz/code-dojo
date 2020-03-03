@@ -1,0 +1,24 @@
+{
+  "name": "refactoring",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tamás Rusz",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "./scripts/test-watch.sh",
+    "test": "./scripts/test.sh"
+  },
+  "dependencies": {
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "tsconfig-paths": "^3.8.0",
+    "tslint": "^5.18.0",
+    "tslint-no-unused-expression-chai": "^0.1.4",
+    "typescript": "^3.5.3"
+  }
+}

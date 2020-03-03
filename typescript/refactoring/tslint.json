@@ -1,0 +1,31 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "no-console": false,
+        "interface-name": false,
+        "member-ordering": [
+            true,
+            {
+                "order": [
+                    "public-instance-field",
+                    "public-constructor",
+                    "private-instance-field",
+                    "private-constructor",
+                    "public-instance-method",
+                    "protected-instance-method",
+                    "private-instance-method",
+                    "public-static-field",
+                    "private-static-field"
+                ],
+                "alphabetize": true
+            }
+        ]
+    },
+    "rulesDirectory": [
+        "tslint-no-unused-expression-chai"
+    ]
+}

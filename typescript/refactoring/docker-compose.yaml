@@ -1,0 +1,9 @@
+version: "3.6"
+services:
+    typescript-refactoring:
+        image: "node:12.8-alpine"
+        stdin_open: true
+        tty: true
+        volumes:
+            - .:/app
+        command: ["sh", "-c", "cd /app && yarn install && yarn start"]
