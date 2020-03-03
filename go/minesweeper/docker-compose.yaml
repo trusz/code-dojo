@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  go-refactoring:
+    image: "golang:1.14"
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/app
+      - ./.go:/go
+    command: ["sh", "-c", "/app/_scripts/dev.sh"]
