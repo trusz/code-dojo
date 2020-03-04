@@ -17,6 +17,6 @@ The most important differences between go and other mainstream languages.
   - [ ] [Methods](https://gobyexample.com/methods)
   - [ ] [Interfaces](https://gobyexample.com/interfaces)
 - [ ] [Errors](https://gobyexample.com/errors)
-- [ ] [Goroutines](vhttps://gobyexample.com/goroutine)
+- [ ] [Goroutines](https://gobyexample.com/goroutine)
 - [ ] [Channels](https://gobyexample.com/channels)
 - [ ] [Mutexes](https://gobyexample.com/mutexes)
